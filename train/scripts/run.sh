@@ -1,0 +1,32 @@
+accelerate launch \
+    --gpu_ids all \
+    --mixed_precision bf16 \
+    --num_machines 1 \
+    --num_processes $1 \
+        open_instruct/finetune.py \
+            --model_name_or_path $2 \
+            --trust_remote_code \
+            --gradient_checkpointing \
+            --use_qlora \
+            --use_lora \
+            --use_flash_attn \
+            --lora_rank 96 \
+            --lora_alpha 192 \
+            --lora_dropout 0.1 \
+            --tokenizer_name $2 \
+            --use_slow_tokenizer \
+            --train_file $3 \
+            --max_seq_length 4096 \
+            --preprocessing_num_workers 32 \
+            --per_device_train_batch_size $4 \
+            --gradient_accumulation_steps $5 \
+            --learning_rate $6 \
+            --lr_scheduler_type cosine \
+            --warmup_ratio $(echo "$7 * 0.01" | bc) \
+            --weight_decay 0. \
+            --num_train_epochs $7 \
+            --checkpointing_steps epoch \
+            --output_dir $8 \
+            --with_tracking \
+            --report_to wandb \
+            --logging_steps 1

@@ -1,0 +1,368 @@
+[
+    {
+        "Life:Be-Born": {
+            "Explanation": "A BE-BORN Event occurs whenever a PERSON is born.",
+            "Role Types": [
+                "Person",
+                "Place",
+                "Time"
+            ]
+        },
+        "Life:Marry": {
+            "Explanation": "A MARRY Event occurs whenever two people marry.",
+            "Role Types": [
+                "Person",
+                "Spouse",
+                "Place",
+                "Time"
+            ]
+        },
+        "Life:Divorce": {
+            "Explanation": "A DIVORCE Event occurs whenever two people divorce.",
+            "Role Types": [
+                "Person",
+                "Spouse",
+                "Place",
+                "Time"
+            ]
+        },
+        "Life:Injure": {
+            "Explanation": "An INJURE Event occurs whenever a PERSON is physically harmed.",
+            "Role Types": [
+                "Agent",
+                "Victim",
+                "Instrument",
+                "Place",
+                "Time"
+            ]
+        },
+        "Life:Die": {
+            "Explanation": "A DIE Event occurs whenever a PERSON dies.",
+            "Role Types": [
+                "Agent",
+                "Victim",
+                "Instrument",
+                "Place",
+                "Time"
+            ]
+        },
+        "Movement:Transport": {
+            "Explanation": "A TRANSPORT Event occurs whenever an ARTIFACT or a PERSON is moved from one PLACE to another.",
+            "Role Types": [
+                "Agent",
+                "Artifact",
+                "Origin",
+                "Destination",
+                "Vehicle",
+                "Time"
+            ]
+        },
+        "Transaction:Transfer-Ownership": {
+            "Explanation": "A TRANSFER-OWNERSHIP Event occurs whenever ownership of an ARTIFACT changes from one ENTITY to another.",
+            "Role Types": [
+                "Buyer",
+                "Seller",
+                "Beneficiary",
+                "Artifact",
+                "Price",
+                "Time",
+                "Place"
+            ]
+        },
+        "Transaction:Transfer-Money": {
+            "Explanation": "A TRANSFER-MONEY Event occurs whenever money changes hands from one ENTITY to another.",
+            "Role Types": [
+                "Giver",
+                "Recipient",
+                "Beneficiary",
+                "Money",
+                "Time",
+                "Place"
+            ]
+        },
+        "Business:Start-Org": {
+            "Explanation": "A START-ORG Event occurs whenever an ORGANIZATION is established.",
+            "Role Types": [
+                "Agent",
+                "Organization",
+                "Place",
+                "Time"
+            ]
+        },
+        "Business:Merge-Org": {
+            "Explanation": "A MERGE-ORG Event occurs whenever two ORGANIZATIONS merge.",
+            "Role Types": [
+                "Agent",
+                "Organization1",
+                "Organization2",
+                "Place",
+                "Time"
+            ]
+        },
+        "Business:Declare-Bankruptcy": {
+            "Explanation": "A DECLARE-BANKRUPTCY Event occurs whenever an ORGANIZATION declares bankruptcy.",
+            "Role Types": [
+                "Organization",
+                "Place",
+                "Time"
+            ]
+        },
+        "Business:End-Org": {
+            "Explanation": "An END-ORG Event occurs whenever an ORGANIZATION ceases to exist.",
+            "Role Types": [
+                "Organization",
+                "Place",
+                "Time"
+            ]
+        },
+        "Conflict:Attack": {
+            "Explanation": "An ATTACK Event is defined as a violent physical act causing harm or damage.",
+            "Role Types": [
+                "Attacker",
+                "Target",
+                "Instrument",
+                "Place",
+                "Time"
+            ]
+        },
+        "Conflict:Demonstrate": {
+            "Explanation": "A DEMONSTRATE Event occurs whenever a large number of people come together in a public area to protest or demand some sort of official action.",
+            "Role Types": [
+                "Entity",
+                "Place",
+                "Time"
+            ]
+        },
+        "Contact:Meet": {
+            "Explanation": "A MEET Event occurs whenever two or more entities come together for a purpose.",
+            "Role Types": [
+                "Entity",
+                "Place",
+                "Time"
+            ]
+        },
+        "Contact:Phone-Write": {
+            "Explanation": "A PHONE-WRITE Event occurs whenever one entity contacts another by phone or in writing.",
+            "Role Types": [
+                "Communicator",
+                "Recipient",
+                "Time"
+            ]
+        },
+        "Personnel:Start-Position": {
+            "Explanation": "A START-POSITION Event occurs whenever a PERSON starts a new job or position.",
+            "Role Types": [
+                "Person",
+                "Entity",
+                "Position",
+                "Place",
+                "Time"
+            ]
+        },
+        "Personnel:End-Position": {
+            "Explanation": "An END-POSITION Event occurs whenever a PERSON leaves a job or position.",
+            "Role Types": [
+                "Person",
+                "Entity",
+                "Position",
+                "Place",
+                "Time"
+            ]
+        },
+        "Personnel:Nominate": {
+            "Explanation": "A NOMINATE Event occurs whenever a PERSON is formally suggested for a position.",
+            "Role Types": [
+                "Person",
+                "Position",
+                "Nominator",
+                "Place",
+                "Time"
+            ]
+        },
+        "Personnel:Elect": {
+            "Explanation": "An ELECT Event occurs whenever a PERSON is elected to a position.",
+            "Role Types": [
+                "Person",
+                "Position",
+                "Elector",
+                "Place",
+                "Time"
+            ]
+        },
+        "Justice:Arrest-Jail": {
+            "Explanation": "An ARREST-JAIL Event occurs whenever a PERSON is taken into custody or imprisoned.",
+            "Role Types": [
+                "Agent",
+                "Person",
+                "Crime",
+                "Sentence",
+                "Place",
+                "Time"
+            ]
+        },
+        "Justice:Release-Parole": {
+            "Explanation": "A RELEASE-PAROLE Event occurs whenever a PERSON is released from custody or granted parole.",
+            "Role Types": [
+                "Agent",
+                "Person",
+                "Crime",
+                "Sentence",
+                "Place",
+                "Time"
+            ]
+        },
+        "Justice:Trial-Hearing": {
+            "Explanation": "A TRIAL-HEARING Event occurs whenever a legal trial or hearing takes place.",
+            "Role Types": [
+                "Prosecutor",
+                "Defendant",
+                "Adjudicator",
+                "Crime",
+                "Place",
+                "Time"
+            ]
+        },
+        "Justice:Charge-Indict": {
+            "Explanation": "A CHARGE-INDICT Event occurs whenever a PERSON is formally accused of a crime.",
+            "Role Types": [
+                "Prosecutor",
+                "Defendant",
+                "Crime",
+                "Place",
+                "Time"
+            ]
+        },
+        "Justice:Sue": {
+            "Explanation": "A SUE Event occurs whenever a legal action is taken by one party against another.",
+            "Role Types": [
+                "Plaintiff",
+                "Defendant",
+                "Adjudicator",
+                "Crime",
+                "Place",
+                "Time"
+            ]
+        },
+        "Justice:Convict": {
+            "Explanation": "A CONVICT Event occurs whenever a PERSON is found guilty of a crime.",
+            "Role Types": [
+                "Prosecutor",
+                "Defendant",
+                "Adjudicator",
+                "Crime",
+                "Place",
+                "Time"
+            ]
+        },
+        "Justice:Sentence": {
+            "Explanation": "A SENTENCE Event occurs whenever a PERSON is given a punishment for a crime.",
+            "Role Types": [
+                "Adjudicator",
+                "Defendant",
+                "Crime",
+                "Sentence",
+                "Place",
+                "Time"
+            ]
+        },
+        "Justice:Fine": {
+            "Explanation": "A FINE Event occurs whenever a PERSON or ENTITY is ordered to pay money as a penalty.",
+            "Role Types": [
+                "Adjudicator",
+                "Defendant",
+                "Crime",
+                "Money",
+                "Place",
+                "Time"
+            ]
+        },
+        "Justice:Execute": {
+            "Explanation": "An EXECUTE Event occurs whenever a PERSON is put to death by the state.",
+            "Role Types": [
+                "Agent",
+                "Person",
+                "Crime",
+                "Place",
+                "Time"
+            ]
+        },
+        "Justice:Extradite": {
+            "Explanation": "An EXTRADITE Event occurs whenever a PERSON is transferred from one jurisdiction to another for legal purposes.",
+            "Role Types": [
+                "Agent",
+                "Person",
+                "Crime",
+                "Destination",
+                "Place",
+                "Time"
+            ]
+        },
+        "Justice:Acquit": {
+            "Explanation": "An ACQUIT Event occurs whenever a PERSON is found not guilty of a crime.",
+            "Role Types": [
+                "Adjudicator",
+                "Defendant",
+                "Crime",
+                "Place",
+                "Time"
+            ]
+        },
+        "Justice:Appeal": {
+            "Explanation": "An APPEAL Event occurs whenever the decision of a court is taken to a higher court for review.",
+            "Role Types": [
+                "Prosecutor",
+                "Defendant",
+                "Adjudicator",
+                "Crime",
+                "Place",
+                "Time"
+            ]
+        },
+        "Justice:Pardon": {
+            "Explanation": "A PARDON Event occurs whenever a head-of-state or their appointed representative lifts a sentence imposed by the judiciary.",
+            "Role Types": [
+                "Adjudicator",
+                "Defendant",
+                "Crime",
+                "Place",
+                "Time"
+            ]
+        }
+    },
+    {
+        "Adjudicator": "An entity, usually a judge or legal body, that makes decisions or judgments in legal cases.",
+        "Agent": "An entity that performs an action or causes an event to occur.",
+        "Artifact": "An object or item that is involved in an event, such as a weapon or tool.",
+        "Attacker": "An entity that carries out an attack.",
+        "Beneficiary": "An entity that benefits from an action or event.",
+        "Buyer": "An entity that purchases or acquires ownership of an artifact or service.",
+        "Communicator": "An entity that sends a message or communicates information to another entity.",
+        "Crime": "An illegal act or offense that is the subject of legal proceedings.",
+        "Defendant": "An entity that is accused or charged in a legal proceeding.",
+        "Destination": "The place to which an entity or artifact is being transported or moved.",
+        "Elector": "An entity that has the authority to vote or elect someone to a position.",
+        "Entity": "A general term for any person, organization, or object involved in an event.",
+        "Giver": "An entity that provides or donates something to another entity.",
+        "Instrument": "An object or tool used to carry out an action or event.",
+        "Money": "Currency or financial assets involved in a transaction or event.",
+        "Nominator": "An entity that proposes or nominates someone for a position or role.",
+        "Organization": "A group or institution involved in an event, such as a company or government agency.",
+        "Organization1": "The first organization involved in an event, typically used in the context of mergers or partnerships.",
+        "Organization2": "The second organization involved in an event, typically used in the context of mergers or partnerships.",
+        "Origin": "The starting point or source from which an entity or artifact is transported or moved.",
+        "Person": "An individual human involved in an event.",
+        "Place": "A location where an event occurs.",
+        "Plaintiff": "An entity that initiates a legal action or lawsuit against another entity.",
+        "Position": "A job title or role within an organization.",
+        "Price": "The cost or value of an artifact or service in a transaction.",
+        "Prosecutor": "An entity that brings charges against a defendant in a legal proceeding.",
+        "Recipient": "An entity that receives something from another entity.",
+        "Seller": "An entity that transfers ownership of an artifact or service to another entity in exchange for money or other compensation.",
+        "Sentence": "The punishment assigned to a defendant who is found guilty in a legal proceeding.",
+        "Spouse": "A person's husband or wife, involved in marriage-related events.",
+        "Target": "An entity that is the focus or recipient of an action, such as an attack or criticism.",
+        "Time": "The specific point or duration at which an event occurs.",
+        "Vehicle": "A means of transportation used to move people or artifacts from one place to another.",
+        "Victim": "An entity that suffers harm or damage as a result of an action or event."
+    }
+]

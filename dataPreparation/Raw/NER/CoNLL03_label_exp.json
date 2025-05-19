@@ -1,0 +1,9 @@
+[
+    {
+        "LOC": "Location. Named entities related to geographical locations, including countries, cities, rivers, etc. Example: Paris, Amazon River.",
+        "MISC": "Miscellaneous. Named entities that do not fit into other categories, such as events, nationalities, works of art, etc. Example: Olympics, French.",
+        "ORG": "Organization. Named entities related to organizations, including companies, government agencies, non-governmental organizations, etc. Example: Google, United Nations.",
+        "PER": "Person. Named entities related to individuals, including real people and fictional characters. Example: Albert Einstein, Harry Potter."
+      }
+      
+]

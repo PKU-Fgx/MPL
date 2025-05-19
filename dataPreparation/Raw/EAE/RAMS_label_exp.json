@@ -1,0 +1,422 @@
+[{
+    "artifactexistence.damagedestroy": {
+        "Explanation": "Causing harm or complete destruction to an artifact.",
+        "Role Types": [
+            "instrument",
+            "artifact",
+            "place",
+            "damagerdestroyer",
+            "destroyer",
+            "damager"
+        ]
+    },
+    "conflict.attack": {
+        "Explanation": "Initiating a violent action against someone or something.",
+        "Role Types": [
+            "instrument",
+            "artifact",
+            "place",
+            "target",
+            "attacker"
+        ]
+    },
+    "conflict.demonstrate": {
+        "Explanation": "Participating in a public display of protest or support.",
+        "Role Types": [
+            "place",
+            "demonstrator"
+        ]
+    },
+    "conflict.yield": {
+        "Explanation": "Surrendering or giving up to opposing forces.",
+        "Role Types": [
+            "retreater",
+            "recipient",
+            "origin",
+            "surrenderer",
+            "place",
+            "destination",
+            "yielder"
+        ]
+    },
+    "contact.collaborate": {
+        "Explanation": "Working together in a cooperative effort.",
+        "Role Types": [
+            "place",
+            "participant"
+        ]
+    },
+    "contact.commandorder": {
+        "Explanation": "Giving an authoritative direction or instruction.",
+        "Role Types": [
+            "place",
+            "recipient",
+            "communicator"
+        ]
+    },
+    "contact.commitmentpromiseexpressintent": {
+        "Explanation": "Declaring an intention or making a promise to do something.",
+        "Role Types": [
+            "place",
+            "recipient",
+            "communicator"
+        ]
+    },
+    "contact.discussion": {
+        "Explanation": "Engaging in a conversation or debate.",
+        "Role Types": [
+            "place",
+            "participant"
+        ]
+    },
+    "contact.funeralvigil": {
+        "Explanation": "Participating in a ceremony or vigil to honor the dead.",
+        "Role Types": [
+            "place",
+            "deceased",
+            "participant"
+        ]
+    },
+    "contact.mediastatement": {
+        "Explanation": "Making an official statement through media outlets.",
+        "Role Types": [
+            "place",
+            "recipient",
+            "communicator"
+        ]
+    },
+    "contact.negotiate": {
+        "Explanation": "Discussing to reach an agreement or compromise.",
+        "Role Types": [
+            "place",
+            "participant"
+        ]
+    },
+    "contact.prevarication": {
+        "Explanation": "Engaging in evasive or misleading communication.",
+        "Role Types": [
+            "place",
+            "recipient",
+            "communicator"
+        ]
+    },
+    "contact.publicstatementinperson": {
+        "Explanation": "Making a declaration or speech in front of an audience.",
+        "Role Types": [
+            "place",
+            "recipient",
+            "communicator"
+        ]
+    },
+    "contact.requestadvise": {
+        "Explanation": "Asking for guidance or information.",
+        "Role Types": [
+            "place",
+            "recipient",
+            "communicator"
+        ]
+    },
+    "contact.threatencoerce": {
+        "Explanation": "Using threats or pressure to influence someone's actions.",
+        "Role Types": [
+            "place",
+            "recipient",
+            "communicator"
+        ]
+    },
+    "disaster.accidentcrash": {
+        "Explanation": "An unexpected and sudden event causing damage or injury, such as a collision.",
+        "Role Types": [
+            "vehicle",
+            "driverpassenger",
+            "crashobject",
+            "place"
+        ]
+    },
+    "disaster.fireexplosion": {
+        "Explanation": "An event causing fire or an explosion.",
+        "Role Types": [
+            "place",
+            "instrument",
+            "fireexplosionobject"
+        ]
+    },
+    "government.agreements": {
+        "Explanation": "Formalizing mutual decisions or treaties between parties or nations.",
+        "Role Types": [
+            "place",
+            "participant",
+            "violator",
+            "otherparticipant",
+            "rejecternullifier"
+        ]
+    },
+    "government.formation": {
+        "Explanation": "Establishing or bringing into existence a new government or organization.",
+        "Role Types": [
+            "place",
+            "founder",
+            "gpe",
+            "participant"
+        ]
+    },
+    "government.legislate": {
+        "Explanation": "Creating or enacting laws.",
+        "Role Types": [
+            "law",
+            "governmentbody",
+            "place"
+        ]
+    },
+    "government.spy": {
+        "Explanation": "Engaging in espionage or intelligence gathering.",
+        "Role Types": [
+            "place",
+            "observedentity",
+            "beneficiary",
+            "spy"
+        ]
+    },
+    "government.vote": {
+        "Explanation": "Casting a ballot or decision in an election or meeting.",
+        "Role Types": [
+            "voter",
+            "result",
+            "place",
+            "candidate",
+            "ballot",
+            "preventer"
+        ]
+    },
+    "inspection.sensoryobserve": {
+        "Explanation": "Examining using the senses, such as sight or hearing.",
+        "Role Types": [
+            "inspector",
+            "place",
+            "inspectedentity",
+            "monitoredentity",
+            "observedentity",
+            "monitor",
+            "observer"
+        ]
+    },
+    "justice.arrestjaildetain": {
+        "Explanation": "Taking someone into custody or confinement.",
+        "Role Types": [
+            "place",
+            "crime",
+            "detainee",
+            "jailer"
+        ]
+    },
+    "justice.initiatejudicialprocess": {
+        "Explanation": "Starting legal proceedings or actions.",
+        "Role Types": [
+            "defendant",
+            "place",
+            "judgecourt",
+            "crime",
+            "prosecutor"
+        ]
+    },
+    "justice.investigate": {
+        "Explanation": "Conducting an inquiry to uncover facts or evidence.",
+        "Role Types": [
+            "investigator",
+            "crime",
+            "defendant",
+            "place"
+        ]
+    },
+    "justice.judicialconsequences": {
+        "Explanation": "Imposing legal penalties or rulings.",
+        "Role Types": [
+            "origin",
+            "executioner",
+            "place",
+            "defendant",
+            "judgecourt",
+            "destination",
+            "crime",
+            "extraditer"
+        ]
+    },
+    "life.die": {
+        "Explanation": "The act of dying.",
+        "Role Types": [
+            "place",
+            "instrument",
+            "killer",
+            "victim"
+        ]
+    },
+    "life.injure": {
+        "Explanation": "Causing physical harm or injury.",
+        "Role Types": [
+            "injurer",
+            "place",
+            "instrument",
+            "victim"
+        ]
+    },
+    "manufacture.artifact": {
+        "Explanation": "Producing or creating an artifact.",
+        "Role Types": [
+            "manufacturer",
+            "place",
+            "instrument",
+            "artifact"
+        ]
+    },
+    "movement.transportartifact": {
+        "Explanation": "Moving an artifact from one place to another.",
+        "Role Types": [
+            "transporter",
+            "artifact",
+            "origin",
+            "hidingplace",
+            "vehicle",
+            "destination",
+            "preventer"
+        ]
+    },
+    "movement.transportperson": {
+        "Explanation": "Moving a person from one place to another.",
+        "Role Types": [
+            "transporter",
+            "origin",
+            "hidingplace",
+            "vehicle",
+            "granter",
+            "passenger",
+            "destination",
+            "preventer"
+        ]
+    },
+    "personnel.elect": {
+        "Explanation": "Choosing someone for a position through voting.",
+        "Role Types": [
+            "voter",
+            "candidate",
+            "place"
+        ]
+    },
+    "personnel.endposition": {
+        "Explanation": "Terminating or leaving a job or position.",
+        "Role Types": [
+            "placeofemployment",
+            "place",
+            "employee"
+        ]
+    },
+    "personnel.startposition": {
+        "Explanation": "Beginning a job or position.",
+        "Role Types": [
+            "placeofemployment",
+            "place",
+            "employee"
+        ]
+    },
+    "transaction.transaction": {
+        "Explanation": "Exchanging goods, services, or money.",
+        "Role Types": [
+            "recipient",
+            "place",
+            "beneficiary",
+            "participant",
+            "artifactmoney",
+            "giver",
+            "territoryorfacility",
+            "preventer"
+        ]
+    },
+    "transaction.transfermoney": {
+        "Explanation": "Moving funds from one entity to another.",
+        "Role Types": [
+            "money",
+            "recipient",
+            "place",
+            "beneficiary",
+            "giver",
+            "preventer"
+        ]
+    },
+    "transaction.transferownership": {
+        "Explanation": "Changing ownership of an asset or property.",
+        "Role Types": [
+            "artifact",
+            "recipient",
+            "place",
+            "beneficiary",
+            "giver",
+            "preventer"
+        ]
+    }
+},
+{
+    "artifact": "An object made or used by humans.",
+    "artifactmoney": "Money associated with a transaction or exchange.",
+    "attacker": "The person or entity that initiates an attack.",
+    "ballot": "A method of voting, typically in written form.",
+    "beneficiary": "A person or entity that receives benefits or advantages.",
+    "candidate": "An individual applying for a position or role, often in elections.",
+    "communicator": "Someone who conveys information or messages.",
+    "crashobject": "An object involved in a crash or collision.",
+    "crime": "An illegal act committed by an individual or group.",
+    "damager": "An entity that causes harm or damage.",
+    "damagerdestroyer": "An entity that causes harm or completely destroys something.",
+    "deceased": "A person who has died.",
+    "defendant": "An individual or entity accused in a legal proceeding.",
+    "demonstrator": "A person participating in a public display of protest or support.",
+    "destination": "The end location where someone or something is headed.",
+    "destroyer": "A person or entity that completely ruins or obliterates something.",
+    "detainee": "A person who is held in custody.",
+    "driverpassenger": "An individual operating a vehicle or a person being transported in it.",
+    "employee": "An individual who works for an employer.",
+    "executioner": "A person who carries out a death sentence.",
+    "extraditer": "An entity involved in transferring a person to another jurisdiction for legal proceedings.",
+    "fireexplosionobject": "An object involved in or affected by fire or an explosion.",
+    "founder": "A person who establishes an organization or institution.",
+    "giver": "A person or entity that provides something to another.",
+    "governmentbody": "A formal organization or institution that governs.",
+    "gpe": "A geographical, political, or economic entity.",
+    "granter": "A person or entity that gives or grants something.",
+    "hidingplace": "A location where someone or something is concealed.",
+    "injurer": "A person or entity that causes physical harm.",
+    "inspectedentity": "An entity that is being examined or inspected.",
+    "inspector": "A person who examines or inspects something.",
+    "instrument": "A tool or device used to perform a task.",
+    "investigator": "A person who conducts an inquiry or investigation.",
+    "jailer": "A person or entity that detains or imprisons someone.",
+    "judgecourt": "A judge or a court that presides over a legal matter.",
+    "killer": "A person or entity that causes death.",
+    "law": "A rule or set of rules established by an authority.",
+    "manufacturer": "A person or entity that produces or creates products.",
+    "money": "Currency used for transactions or exchange.",
+    "monitor": "An entity that observes and checks the progress or quality of something.",
+    "monitoredentity": "An entity that is being observed or supervised.",
+    "observedentity": "An entity that is being watched or studied.",
+    "observer": "An individual who watches or monitors an event.",
+    "origin": "The starting point from where someone or something comes.",
+    "otherparticipant": "An additional individual involved in an event or activity.",
+    "participant": "An individual who takes part in an event or activity.",
+    "passenger": "An individual being transported, typically in a vehicle.",
+    "place": "A specific location or area.",
+    "placeofemployment": "The location where an individual works.",
+    "preventer": "An entity that stops something from happening.",
+    "prosecutor": "The legal representative who brings charges against a defendant.",
+    "recipient": "A person or entity that receives something.",
+    "rejecternullifier": "An entity that rejects or nullifies something.",
+    "result": "The outcome or effect of an event or action.",
+    "retreater": "An entity that withdraws or pulls back from a situation.",
+    "spy": "A person involved in espionage or intelligence gathering.",
+    "surrenderer": "An entity that gives up or submits to another.",
+    "target": "A person, object, or location aimed at or focused on.",
+    "territoryorfacility": "A defined area of land or a specific building or structure.",
+    "transporter": "A person or entity that moves someone or something from one place to another.",
+    "vehicle": "A means of transportation, such as a car or plane.",
+    "victim": "A person harmed or affected by an event or action.",
+    "violator": "A person who breaks a rule, law, or agreement.",
+    "voter": "An individual who casts a vote in an election.",
+    "yielder": "An entity that gives up or relinquishes something."
+}]

@@ -1,0 +1,11 @@
+[
+  {
+    "FAC": "A facility is a functional, primarily man-made structure.",
+    "GPE": "Geo-Political Entities are composite entities comprised of a population, a government, a physical location, and a nation (or province, state, county, city, etc.).",
+    "LOC": "Places defined on a geographical or astronomical basis which are mentioned in a document and do not constitute a political entity give rise to Location entities.",
+    "ORG": "Each organization or set of organizations mentioned in a document gives rise to an entity of type Organization.",
+    "PER": "Each distinct person or set of people mentioned in a document refers to an entity of type Person.",
+    "VEH": "A vehicle is a physical device primarily designed to move an object from one location to another, by (for example) carrying, pulling, or pushing the transported object. ",
+    "WEA": "A physical device that is primarily used as an instrument for physically harming or destroying entities (taggable or not)."
+  }
+]

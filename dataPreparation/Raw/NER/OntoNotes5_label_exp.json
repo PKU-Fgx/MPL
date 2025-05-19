@@ -1,0 +1,22 @@
+[
+    {
+        "CARDINAL": "Numerical values that are not exact counts or percentages.",
+        "DATE": "Specific dates or periods of time.",
+        "EVENT": "Named occurrences such as meetings, sports events, or wars.",
+        "FAC": "Buildings, airports, highways, bridges, and other man-made structures.",
+        "GPE": "Countries, cities, states, and other geographical political entities.",
+        "LANGUAGE": "Names of languages.",
+        "LAW": "Legal documents such as treaties, laws, or decrees.",
+        "LOC": "Non-political geographical locations such as mountains, rivers, or regions.",
+        "MONEY": "Monetary values including units.",
+        "NORP": "Nationalities, religious groups, or political groups.",
+        "ORDINAL": "Ordinal numbers such as 'first', 'second', etc.",
+        "ORG": "Organizations such as companies, agencies, and institutions.",
+        "PERCENT": "Percentage values.",
+        "PERSON": "People, including fictional characters.",
+        "PRODUCT": "Names of products including vehicles, food, and clothing.",
+        "QUANTITY": "Measurements such as weight, distance, or volume.",
+        "TIME": "Times of day or specific time expressions.",
+        "WORK_OF_ART": "Titles of books, songs, movies, and other creative works."
+      }      
+]

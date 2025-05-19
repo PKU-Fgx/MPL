@@ -1,0 +1,10 @@
+[
+    {
+        "Work_For": "Indicates that a person works for an organization. This relationship identifies employment or affiliation between individuals and entities, such as a person working at a company.",
+        "Kill": "Represents an action where one entity causes the death of another. This relationship is used to link the perpetrator and the victim in scenarios involving murder or manslaughter.",
+        "OrgBased_In": "Specifies that an organization is based in or operates from a specific location. This relationship helps to identify the geographical location of a company's headquarters or main operation area.",
+        "Live_In": "Denotes that a person resides in a specific place. This relationship is used to link individuals with their places of living, be it a city, country, or other types of domicile.",
+        "Located_In": "Used to specify that a particular entity (such as a landmark, structure, or geographic feature) is situated within a larger location. This relationship is generally used for non-anthropogenic entities."
+      }
+      
+]

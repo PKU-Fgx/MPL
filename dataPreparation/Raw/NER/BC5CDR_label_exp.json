@@ -1,0 +1,42 @@
+[
+    {
+        "chemical_chemical": "This label identifies interactions or relationships between two chemical substances, such as combinations, reactions, or bonds.",
+        "disease_disease": "This label denotes the relationship or similarity between two diseases, indicating co-morbidities or diseases that share symptoms or etiological factors."
+    },
+    {
+        "chemical_chemical": "Labels pairs of chemicals that may be involved in a specific process, like synthesis pathways, highlighting their role and functional relevance.",
+        "disease_disease": "Indicates two diseases that may influence each other, whether through shared genetic factors or environmental triggers that exacerbate both conditions."
+    },
+    {
+        "chemical_chemical": "Refers to the connections between different chemical entities, which might include environmental pollutants, pharmaceuticals, or industrial chemicals and their interactions.",
+        "disease_disease": "Captures the relationship between distinct medical conditions, focusing on cases where one disease impacts the progression or treatment of another."
+    },
+    {
+        "chemical_chemical": "This label captures instances where two chemicals are discussed in relation to each other, often in contexts like chemical safety or toxicity studies.",
+        "disease_disease": "This label emphasizes the similarities in the pathology or clinical presentation between two diseases, useful in epidemiological research."
+    },
+    {
+        "chemical_chemical": "Used to annotate cases where two chemicals are referenced together, such as in chemical analyses, formulation discussions, or scientific evaluations.",
+        "disease_disease": "Highlights connections between diseases, particularly useful in understanding multi-morbidity patterns and their implications for treatment strategies."
+    },
+    {
+        "chemical_chemical": "This label identifies pairs of chemicals that are mentioned in a context where their interactions or comparative properties are being analyzed, such as pharmacological studies.",
+        "disease_disease": "This label indicates the association between two diseases where one may influence the presence or severity of the other, aiding in understanding complex health conditions."
+    },
+    {
+        "chemical_chemical": "Refers to situations where two distinct chemicals are compared or contrasted, often in discussions about their effects or roles in chemical reactions or processes.",
+        "disease_disease": "Denotes a categorization of two diseases that have overlapping symptoms or treatment methods, which is crucial in the field of differential diagnosis."
+    },
+    {
+        "chemical_chemical": "Used to mark references to two chemicals that might participate in a specific scientific inquiry, such as joint efficacy studies or adverse interaction assessments.",
+        "disease_disease": "Highlights the interaction between two different diseases, especially in research exploring common risk factors, pathophysiological links, or shared genetic underpinnings."
+    },
+    {
+        "chemical_chemical": "This label is applicable when discussing pairs of chemicals within a specific scientific or industrial context, which could involve assessments of efficacy, environmental impact, or safety profiles.",
+        "disease_disease": "Indicates the investigative focus on how one disease can serve as a complicating factor in the management or progression of another disease, important for healthcare practices."
+    },
+    {
+        "chemical_chemical": "Identifies two chemicals discussed in relation to environmental concerns or health impacts, often found in toxicology or pharmacology literature.",
+        "disease_disease": "This label captures connections between diseases that may arise from similar environmental exposures or molecular mechanisms, providing insights for public health initiatives."
+    }
+]

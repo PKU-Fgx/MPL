@@ -1,0 +1,10 @@
+[
+    {
+        "ART": "A relationship where one entity creates or produces another entity.",
+        "GEN-AFF": "A relationship indicating a general affiliation between entities, such as membership, employment, or association.",
+        "ORG-AFF": "A relationship where an individual is affiliated with an organization, such as employment or leadership roles.",
+        "PART-WHOLE": "A relationship where one entity is a part or component of a larger whole.",
+        "PER-SOC": "A relationship indicating a personal or social connection between individuals.",
+        "PHYS": "A relationship that describes a physical connection or interaction between entities, such as location or proximity."
+    }
+]

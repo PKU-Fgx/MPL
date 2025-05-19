@@ -1,0 +1,50 @@
+[
+    {
+        "corporation_corporation": "This label identifies entities that are formal organizations or legal entities engaged in commercial activities, such as companies, firms, and businesses involved in producing goods or services.",
+        "creative_work_creative_work": "This label pertains to artistic, literary, or intellectual creations. It encompasses works like novels, films, paintings, music, and other forms of expression that showcase creativity.",
+        "group_group": "This label denotes collective entities consisting of individuals who interact or share a common interest, forming an organization, community, or team aimed at achieving common goals.",
+        "location_location": "This label covers entities representing physical places or geographical areas, including countries, cities, landmarks, and other distinct locations that can be identified spatially.",
+        "person_person": "This label signifies individual human beings or characters in texts, capturing their names and roles, whether real (historical figures) or fictional (characters in stories).",
+        "product_product": "This label identifies tangible goods or services that are manufactured for sale or distribution, including consumer products, technology items, and other commodities."
+    },
+    {
+        "corporation_corporation": "Representing legally recognized businesses, this label is applied to entities that are established to sell goods or provide services, operating in various industries like technology, finance, and retail.",
+        "creative_work_creative_work": "This designation is used for any output of human imagination or skill. It could be a specific artwork, a recorded song, a scholarly paper, or any crafted piece that has cultural significance.",
+        "group_group": "Referring to organized entities, this label encompasses all forms of community assemblies, squads, clubs, and social organizations that work together towards a unified objective.",
+        "location_location": "This classification relates to identifiable areas on earth, ranging from small localities to vast countries, encompassing geographical features, cities, states, and other notable spaces.",
+        "person_person": "This label is for distinguishing one or more identifiable individuals, capturing the essence of roles they play in various contexts, such as public figures, everyday citizens, or fictional protagonists.",
+        "product_product": "This label is used to classify items created for consumer use, ranging from everyday household items to innovative technology, reflecting the vast array of offerings in the marketplace."
+    },
+    {
+        "corporation_corporation": "This label classifies entities recognized as businesses or companies, including both large multinationals and small startups engaged in providing goods or services within the market.",
+        "creative_work_creative_work": "This label identifies instances of creativity, including works produced in literature, music, visual arts, and entertainment, highlighting the personal or collective artistic endeavors.",
+        "group_group": "This label encompasses any assembly of individuals characterized by shared interests or purposes, forming clubs, societies, and various organizational structures in society.",
+        "location_location": "Applies to geographical entities, identifying places with cultural, social, or political significance, from cities to national borders to natural landmarks across the globe.",
+        "person_person": "Denotes identifiable individuals or groups of individuals, capturing names and relevant information about their contributions to society, culture, and various narrative contexts.",
+        "product_product": "Used to denote items that are commercially available, this label includes physical goods and intangible services produced by corporations or individuals for consumption."
+    },
+    {
+        "corporation_corporation": "Denoting business entities, this label refers to officially recognized organizations engaged in economic activities, including their structure, functions, and types such as non-profits and for-profits.",
+        "creative_work_creative_work": "Refers to the outputs of creative endeavors, acknowledging various forms of artistic expression, cultural artifacts, and innovative ideas that contribute to intellectual property.",
+        "group_group": "Covers entities formed by the assembly of individuals with shared interests, goals, or characteristics, representing social structures like teams, clubs, and charitable organizations.",
+        "location_location": "A geographic label that identifies places, documenting human environments and natural features, ranging from urban centers to remote rural areas.",
+        "person_person": "Related to individual entities, this label captures names, roles, and identities of people, whether in fictional narratives or real-world contexts, emphasizing their influence and interactions.",
+        "product_product": "This label focuses on consumer-facing items, categorizing everything from food items to technology, illustrating the variety in manufactured goods available in the economy."
+    },
+    {
+        "corporation_corporation": "A classification that includes all types of corporate entities involved in commercial operations, ranging from large conglomerates to small local businesses.",
+        "creative_work_creative_work": "Encompasses all forms of creative contributions, including artistic outputs like books, music, and films, which express human creativity and cultural heritage.",
+        "group_group": "Defines associations or coalitions of individuals, representing various collective interests, from informal gathering groups to structured organizations with defined purposes.",
+        "location_location": "This label is applied to name specific areas or regions on the planet, recognizing urban, suburban, and rural locations and their geopolitical significance.",
+        "person_person": "Used to identify distinct individuals, this label captures names and roles in different contexts, crucial for understanding social dynamics and narratives.",
+        "product_product": "Applies to goods or services offered in the marketplace, including proprietary brands and generic merchandise, essential for economic transactions and consumer choices."
+    },
+    {
+        "corporation_corporation": "This label is for formally organized entities that conduct business activities, defined by their legal status and operational frameworks, impacting local and global markets.",
+        "creative_work_creative_work": "A designation for works born out of human imagination and craftsmanship, including classics and contemporary pieces across disciplines like literature, visual arts, and performance.",
+        "group_group": "Highlights collective entities formed by people sharing a common interest or goal, including clubs, associations, and teams that engage in collaborative efforts.",
+        "location_location": "Recognition of defined geographical spaces or regions, this label addresses the importance of specific locations in cultural and historical contexts.",
+        "person_person": "Focuses on the identification of individual entities, whether real or fictional, capturing their influence and significance in a variety of contexts.",
+        "product_product": "Classifies a wide range of consumer offerings, from branded products to generic lines, playing a crucial role in the economy and consumer culture."
+    }
+]
