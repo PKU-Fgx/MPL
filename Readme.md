@@ -7,7 +7,6 @@
 
 <p align="center">
     <a href="https://github.com/PKU-Fgx/MPL/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/PKU-Fgx/MPL"></a>
-    <a href="https://huggingface.co/collections/pku-fanggx/mpl-682c3bc6135458f10802720b"><img alt="Pretrained Models" src="https://img.shields.io/badge/ 🤗HuggingFace-Pretrained Models-green"></a>
     <a href=""><img alt="Paper" src="https://img.shields.io/badge/ 📖-Paper-orange"></a>
     <br>
 </p>
@@ -120,15 +119,6 @@ We utilize [allenai/open-instruct](https://github.com/allenai/open-instruct) for
 # Run MPL training script
 bash train/run_mpl.sh
 ```
-
-#### 2.1 Pretrained Models
-
-We release MPL models based on [CodeLLaMa](https://huggingface.co/codellama) (7B, 13B). The models are available on 🤗 HuggingFace Hub.
-
-| Model |                     🤗 HuggingFace Hub                     |
-|-------|:---------------------------------------------------------:|
-| MPL-7B | [pku-fanggx/MPL-7B-Qlora](https://huggingface.co/pku-fanggx/MPL-7B-Qlora) |
-| MPL-13B | [pku-fanggx/MPL-13B-Qlora](https://huggingface.co/pku-fanggx/MPL-13B-Qlora) |
 
 ---
 
