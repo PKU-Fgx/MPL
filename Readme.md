@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-    <a href=""><img alt="GitHub license" src="https://img.shields.io/github/license/PKU-Fgx/transformers"></a>
+    <a href="https://github.com/PKU-Fgx/MPL/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/PKU-Fgx/MPL"></a>
     <a href="https://huggingface.co/collections/pku-fanggx/mpl-682c3bc6135458f10802720b"><img alt="Pretrained Models" src="https://img.shields.io/badge/ 🤗HuggingFace-Pretrained Models-green"></a>
     <a href=""><img alt="Paper" src="https://img.shields.io/badge/ 📖-Paper-orange"></a>
     <br>
@@ -19,7 +19,7 @@ We present <i>MPL: Multiple Programming Languages with Large Language Models for
 - 📖 Paper: [MPL: Multiple Programming Languages with Large Language Models for Information Extraction]()
 
 <p align="center">
-<img src="assets/main.png">
+<img src="assets/Main.png">
 </p>
 
 ## 🏗️ Repo Structure
