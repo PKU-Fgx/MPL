@@ -6,5 +6,4 @@
         "Live_In": "Denotes that a person resides in a specific place. This relationship is used to link individuals with their places of living, be it a city, country, or other types of domicile.",
         "Located_In": "Used to specify that a particular entity (such as a landmark, structure, or geographic feature) is situated within a larger location. This relationship is generally used for non-anthropogenic entities."
       }
-      
 ]
