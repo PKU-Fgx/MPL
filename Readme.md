@@ -3,7 +3,6 @@
     <img src="assets/MPL-Logo.png" style="height: 250px;">
     <br>
     <h2 align="center">MPL: Multiple Programming Languages with Large Language Models for Information Extraction</h2>
-    <hr>
 </p>
 
 <p align="center">
