@@ -2,7 +2,11 @@
     <br>
     <img src="assets/MPL-Logo.png" style="height: 250px;">
     <br>
-    <h2 align="center">MPL: Multiple Programming Languages with Large Language Models for Information Extraction [ACL25 Findings]</h2>
+    <h2 align="center">MPL: Multiple Programming Languages with Large Language Models for Information Extraction [ACL'25 Findings]
+    <br>
+     <em>
+    <a href="https://deepblue666.github.io/">Bo Li</a>, Gexiang Fang, Wei Ye, Zhenghua Xu, Jinglei Zhang, Hao Cheng and Shikun Zhang
+  </em> </h2>
 </p>
 
 <p align="center">
