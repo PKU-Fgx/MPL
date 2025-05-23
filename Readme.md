@@ -11,7 +11,7 @@
 
 <p align="center">
     <a href="https://github.com/PKU-Fgx/MPL/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/PKU-Fgx/MPL"></a>
-    <a href=""><img alt="Paper" src="https://img.shields.io/badge/ 📖-Paper-orange"></a>
+    <a href="https://arxiv.org/abs/2505.16107"><img alt="Paper" src="https://img.shields.io/badge/ 📖-Paper-orange"></a>
     <br>
 </p>
 
@@ -19,7 +19,7 @@
 We present <i>MPL: Multiple Programming Languages with Large Language Models for Information Extraction</i>. Recent advances in information extraction (IE) have explored the use of code-style prompts to improve structured output generation. This approach leverages the inherent structure of programming languages (PLs), which are often more precise and organized than natural language. While most existing work focuses on Python as the primary PL for simulation and fine-tuning, our framework MPL extends this paradigm by incorporating multiple widely-used programming languages, such as C++, Java, and Python, into the supervised fine-tuning (SFT) process. This allows the model to learn cross-language structural patterns that enhance IE performance. To further improve the code-style simulation, we introduce a novel function-prompt with virtual execution, enabling more effective and efficient generation of structured outputs. This repository contains the implementation, training scripts, and evaluation tools for MPL. Please refer to the supplementary materials for more details and trained models.
 </p>
 
-- 📖 Paper: [MPL: Multiple Programming Languages with Large Language Models for Information Extraction]()
+- 📖 Paper: [MPL: Multiple Programming Languages with Large Language Models for Information Extraction](https://arxiv.org/abs/2505.16107)
 
 <p align="center">
 <img src="assets/Main.png">
